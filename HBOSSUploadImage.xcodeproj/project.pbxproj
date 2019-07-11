@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D61703422D7688C00A5456F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61703322D7688C00A5456F /* AppDelegate.m */; };
+		5D61703722D7688C00A5456F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61703622D7688C00A5456F /* ViewController.m */; };
+		5D61703A22D7688D00A5456F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61703822D7688D00A5456F /* Main.storyboard */; };
+		5D61703C22D7689200A5456F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61703B22D7689200A5456F /* Assets.xcassets */; };
+		5D61703F22D7689200A5456F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61703D22D7689200A5456F /* LaunchScreen.storyboard */; };
+		5D61704222D7689200A5456F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61704122D7689200A5456F /* main.m */; };
+		5D61704C22D7689300A5456F /* HBOSSUploadImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61704B22D7689300A5456F /* HBOSSUploadImageTests.m */; };
+		5D61705722D7689300A5456F /* HBOSSUploadImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61705622D7689300A5456F /* HBOSSUploadImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D61704822D7689300A5456F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D61702722D7688C00A5456F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D61702E22D7688C00A5456F;
+			remoteInfo = HBOSSUploadImage;
+		};
+		5D61705322D7689300A5456F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D61702722D7688C00A5456F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D61702E22D7688C00A5456F;
+			remoteInfo = HBOSSUploadImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D61702F22D7688C00A5456F /* HBOSSUploadImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBOSSUploadImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D61703222D7688C00A5456F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D61703322D7688C00A5456F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D61703522D7688C00A5456F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D61703622D7688C00A5456F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D61703922D7688D00A5456F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D61703B22D7689200A5456F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D61703E22D7689200A5456F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D61704022D7689200A5456F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D61704122D7689200A5456F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D61704722D7689300A5456F /* HBOSSUploadImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOSSUploadImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D61704B22D7689300A5456F /* HBOSSUploadImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBOSSUploadImageTests.m; sourceTree = "<group>"; };
+		5D61704D22D7689300A5456F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D61705222D7689300A5456F /* HBOSSUploadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOSSUploadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D61705622D7689300A5456F /* HBOSSUploadImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBOSSUploadImageUITests.m; sourceTree = "<group>"; };
+		5D61705822D7689300A5456F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D61702C22D7688C00A5456F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61704422D7689300A5456F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61704F22D7689300A5456F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D61702622D7688C00A5456F = {
+			isa = PBXGroup;
+			children = (
+				5D61703122D7688C00A5456F /* HBOSSUploadImage */,
+				5D61704A22D7689300A5456F /* HBOSSUploadImageTests */,
+				5D61705522D7689300A5456F /* HBOSSUploadImageUITests */,
+				5D61703022D7688C00A5456F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D61703022D7688C00A5456F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D61702F22D7688C00A5456F /* HBOSSUploadImage.app */,
+				5D61704722D7689300A5456F /* HBOSSUploadImageTests.xctest */,
+				5D61705222D7689300A5456F /* HBOSSUploadImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D61703122D7688C00A5456F /* HBOSSUploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				5D61703222D7688C00A5456F /* AppDelegate.h */,
+				5D61703322D7688C00A5456F /* AppDelegate.m */,
+				5D61703522D7688C00A5456F /* ViewController.h */,
+				5D61703622D7688C00A5456F /* ViewController.m */,
+				5D61703822D7688D00A5456F /* Main.storyboard */,
+				5D61703B22D7689200A5456F /* Assets.xcassets */,
+				5D61703D22D7689200A5456F /* LaunchScreen.storyboard */,
+				5D61704022D7689200A5456F /* Info.plist */,
+				5D61704122D7689200A5456F /* main.m */,
+			);
+			path = HBOSSUploadImage;
+			sourceTree = "<group>";
+		};
+		5D61704A22D7689300A5456F /* HBOSSUploadImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D61704B22D7689300A5456F /* HBOSSUploadImageTests.m */,
+				5D61704D22D7689300A5456F /* Info.plist */,
+			);
+			path = HBOSSUploadImageTests;
+			sourceTree = "<group>";
+		};
+		5D61705522D7689300A5456F /* HBOSSUploadImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D61705622D7689300A5456F /* HBOSSUploadImageUITests.m */,
+				5D61705822D7689300A5456F /* Info.plist */,
+			);
+			path = HBOSSUploadImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D61702E22D7688C00A5456F /* HBOSSUploadImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D61705B22D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImage" */;
+			buildPhases = (
+				5D61702B22D7688C00A5456F /* Sources */,
+				5D61702C22D7688C00A5456F /* Frameworks */,
+				5D61702D22D7688C00A5456F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBOSSUploadImage;
+			productName = HBOSSUploadImage;
+			productReference = 5D61702F22D7688C00A5456F /* HBOSSUploadImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D61704622D7689300A5456F /* HBOSSUploadImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D61705E22D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImageTests" */;
+			buildPhases = (
+				5D61704322D7689300A5456F /* Sources */,
+				5D61704422D7689300A5456F /* Frameworks */,
+				5D61704522D7689300A5456F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D61704922D7689300A5456F /* PBXTargetDependency */,
+			);
+			name = HBOSSUploadImageTests;
+			productName = HBOSSUploadImageTests;
+			productReference = 5D61704722D7689300A5456F /* HBOSSUploadImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D61705122D7689300A5456F /* HBOSSUploadImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D61706122D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImageUITests" */;
+			buildPhases = (
+				5D61704E22D7689300A5456F /* Sources */,
+				5D61704F22D7689300A5456F /* Frameworks */,
+				5D61705022D7689300A5456F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D61705422D7689300A5456F /* PBXTargetDependency */,
+			);
+			name = HBOSSUploadImageUITests;
+			productName = HBOSSUploadImageUITests;
+			productReference = 5D61705222D7689300A5456F /* HBOSSUploadImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D61702722D7688C00A5456F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mingsishui;
+				TargetAttributes = {
+					5D61702E22D7688C00A5456F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5D61704622D7689300A5456F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5D61702E22D7688C00A5456F;
+					};
+					5D61705122D7689300A5456F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5D61702E22D7688C00A5456F;
+					};
+				};
+			};
+			buildConfigurationList = 5D61702A22D7688C00A5456F /* Build configuration list for PBXProject "HBOSSUploadImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D61702622D7688C00A5456F;
+			productRefGroup = 5D61703022D7688C00A5456F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D61702E22D7688C00A5456F /* HBOSSUploadImage */,
+				5D61704622D7689300A5456F /* HBOSSUploadImageTests */,
+				5D61705122D7689300A5456F /* HBOSSUploadImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D61702D22D7688C00A5456F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D61703F22D7689200A5456F /* LaunchScreen.storyboard in Resources */,
+				5D61703C22D7689200A5456F /* Assets.xcassets in Resources */,
+				5D61703A22D7688D00A5456F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61704522D7689300A5456F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61705022D7689300A5456F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D61702B22D7688C00A5456F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D61703722D7688C00A5456F /* ViewController.m in Sources */,
+				5D61704222D7689200A5456F /* main.m in Sources */,
+				5D61703422D7688C00A5456F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61704322D7689300A5456F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D61704C22D7689300A5456F /* HBOSSUploadImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D61704E22D7689300A5456F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D61705722D7689300A5456F /* HBOSSUploadImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D61704922D7689300A5456F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D61702E22D7688C00A5456F /* HBOSSUploadImage */;
+			targetProxy = 5D61704822D7689300A5456F /* PBXContainerItemProxy */;
+		};
+		5D61705422D7689300A5456F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D61702E22D7688C00A5456F /* HBOSSUploadImage */;
+			targetProxy = 5D61705322D7689300A5456F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D61703822D7688D00A5456F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D61703922D7688D00A5456F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D61703D22D7689200A5456F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D61703E22D7689200A5456F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D61705922D7689300A5456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D61705A22D7689300A5456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D61705C22D7689300A5456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D61705D22D7689300A5456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D61705F22D7689300A5456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBOSSUploadImage.app/HBOSSUploadImage";
+			};
+			name = Debug;
+		};
+		5D61706022D7689300A5456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBOSSUploadImage.app/HBOSSUploadImage";
+			};
+			name = Release;
+		};
+		5D61706222D7689300A5456F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBOSSUploadImage;
+			};
+			name = Debug;
+		};
+		5D61706322D7689300A5456F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HBOSSUploadImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mingsishui.HBOSSUploadImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HBOSSUploadImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D61702A22D7688C00A5456F /* Build configuration list for PBXProject "HBOSSUploadImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D61705922D7689300A5456F /* Debug */,
+				5D61705A22D7689300A5456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D61705B22D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D61705C22D7689300A5456F /* Debug */,
+				5D61705D22D7689300A5456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D61705E22D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D61705F22D7689300A5456F /* Debug */,
+				5D61706022D7689300A5456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D61706122D7689300A5456F /* Build configuration list for PBXNativeTarget "HBOSSUploadImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D61706222D7689300A5456F /* Debug */,
+				5D61706322D7689300A5456F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D61702722D7688C00A5456F /* Project object */;
+}
